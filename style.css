@@ -1,0 +1,35 @@
+.block {
+    height: 300px;
+    border: solid grey 1px ;
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+.block1 {
+    background: lightblue;
+  
+}
+.block2 {
+    background: lightcoral;
+    flex-wrap: wrap;
+}
+.block3 {
+    background: lawngreen;
+}
+.inf {
+    border: solid grey 1px;
+}
+.logo {
+    border: solid grey 1px;
+    color: white;
+    background: fuchsia;
+    width: 80px;
+    height: 80px; 
+}
+.box {
+    background: brown;
+    color: white;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}

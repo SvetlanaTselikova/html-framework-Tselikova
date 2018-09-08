@@ -1,0 +1,75 @@
+<html>
+<head>
+    <link rel='stylesheet' href='framework.css'>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <div class='container'>
+  <div class="row">
+    <div class="col-lg-4  col-md-6 ">
+      <div class="block block1 flex flex-column"><!--11-20-демонстрация работы flex-boxes, при расположении
+      элементов в виде колонки, использование float и clearfix -->
+          <div class='inf margin-16 clearfix'>
+              <div class='logo padding-16 pull-left text-center'>Pull-right</div>
+              <div class='pull-right padding-16'>Pull-left</div>  
+          </div>  
+          <div class='inf margin-16 clearfix'>
+              <div class='logo padding-16  pull-left text-center'>Pull-right</div>
+              <div class='pull-right padding-16'>Pull-left</div>  
+          </div>        
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      
+      <div class='block block2 flex y-center flex-space-between flex-row'><!--Демонстрация использования
+      flex-boxes при justify-content==space-between и при выравнивании элементов по вертикали-->
+    
+        <div class='box margin-16'>
+          
+        </div>
+        <div class='box margin-16 '>
+            
+        </div>
+        <div class='box margin-16 '>
+            
+        </div>
+        <div class='box margin-16'>
+          
+          </div>
+          <div class='box margin-16 '>
+              
+          </div>
+          <div class='box margin-16 '>
+              
+          </div>
+          <div class='box margin-16 '>
+              
+            </div>
+            <div class='box margin-16 '>
+                
+            </div>     
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+      <div class='block block3'><!--Демонстрация использования flex-boxes при позиционировании элементов
+      от начала и от конца flex-контейнера-->
+        <div class='flex x-start'>
+          <div class='box margin-16'></div>
+          <div class='box margin-16'></div>
+          <div class='box margin-16'></div>
+        </div>
+        <div class='flex x-end'>
+            <div class='box margin-16'></div>
+            <div class='box margin-16'></div>
+            <div class='box margin-16'></div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
