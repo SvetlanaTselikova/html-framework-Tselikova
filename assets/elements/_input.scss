@@ -1,0 +1,38 @@
+input {
+  width: 300px;
+  height: 40px;
+	font-size: 18px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid  #8B8B83;
+	background: #F6F6f6;
+  border-radius: 8px;
+  color: #4F4F4F; 
+  margin: 16px;
+  display: block;
+}
+
+input:disabled {
+  background: #dddddd;
+}
+
+input[readonly] {
+  background: #dddddd; 
+}
+
+input:focus {
+  background: #EED2EE;
+}
+
+
+input[readonly]:focus {
+  background: #dddddd; 
+}
+
+input:invalid {
+ background: #FA8072;
+}
+
+.input-icon {
+
+  
+}

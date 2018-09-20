@@ -1,0 +1,77 @@
+<html>
+<head>
+    <link rel='stylesheet' href='assets/_index.css'>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <div class='container'>
+    <div class="row">
+      <div class="col-sm-12 ">
+          <div class='form'>
+            
+            <div class="title-form">
+              Анкета
+            </div>
+            <div class='form-container clearfix'>
+ 
+            <label class=' label-input'>
+                Имя: 
+                <input type='text'>
+            </label>
+
+            <label class='label-input'>
+              Фамилия:
+                <input type='text'>
+            </label>
+
+            
+            <label class='label-input'>
+              Отчество:
+                <input type='text'>
+            </label>
+
+            <label class="label-input">
+                Пол:
+                <div class="radio">
+                  <input id="male"  type="radio" name="gender" value="male">
+                  <label class='label-radio' for="male">Мужской</label>
+                  <input id="female" type="radio" name="gender" value="female">
+                  <label class="label-radio" for="female">Женский</label>
+                  </div>
+                </label> 
+
+            <label class='label-textarea'>
+              Расскажите о ваших хобби:
+                <textarea></textarea>
+            </label>
+            
+            <label class='label-input'>
+                Ваши профессиональные интересы:
+            <div class="checkbox">
+              <input id="check1" type="checkbox" name="intetests" >
+              <label class="label-checkbox" for="check1">Data science</label>
+              <br>
+               <input id="check2" type="checkbox" name="interests" >
+               <label class="label-checkbox" for="check2">Frontend</label>
+               <br>
+               <input id="check3" type="checkbox" name="interests" >
+               <label class="label-checkbox" for="check3">Backend</label>
+               <br>
+               <input id="check4" type="checkbox" name="interests" >
+               <label class="label-checkbox" for="check4">Machine learning</label>               
+              </div>
+            </label> 
+    
+            <button class=" pull-right button-primary">Отправить</button>  
+            <button class=" pull-left button-warning">Отменить </button>  
+
+  
+         
+          </div>   
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
