@@ -502,6 +502,13 @@ input[readonly]:focus {
 input:invalid {
   background: #FA8072; }
 
+input[class=input-icon-face] {
+  background-image: url(../images/face.png);
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+  background-size: 35px 35px;
+  padding-left: 45px; }
+
 .radio {
   margin: 16px; }
 
